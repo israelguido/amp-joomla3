@@ -25,3 +25,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/9a1ee936-3001-4493-a9c9-c59beee8abba)
+
+## Exemplo
+https://felizcompouco.com.br/stories
