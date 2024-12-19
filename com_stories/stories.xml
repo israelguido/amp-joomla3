@@ -1,0 +1,36 @@
+<extension type="component" version="3.9" client="site" method="upgrade">
+    <name>com_stories</name>
+    <description>
+        <author>CyberFire Group</author>
+        <url>https://cyberfire.com.br</url>
+        Componente para exibição de histórias AMP.
+    </description>
+    <files>
+        <!-- Arquivos principais do componente -->
+        <filename>stories.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>models/stories.php</filename>
+        <filename>views/stories/view.html.php</filename>
+        <filename>views/stories/tmpl/default.php</filename>
+
+        <!-- Arquivo de configuração do componente -->
+        <filename>stories.xml</filename>
+    </files>
+
+    <administration>
+        <!-- Se não houver arquivos específicos para administração, ainda é necessário incluir essa seção -->
+        <files>
+            <!-- Inclua aqui arquivos administrativos se houver -->
+        </files>
+    </administration>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="some_parameter" type="text" default="default_value" label="Some Parameter" description="Description of the parameter."/>
+                <!-- Adicione outros parâmetros de configuração aqui -->
+            </fieldset>
+        </fields>
+    </config>
+</extension>
